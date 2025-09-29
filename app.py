@@ -183,7 +183,10 @@ try:
     if uploaded:
         df = load_data_from_excel(uploaded_file=uploaded)
     elif use_local:
-        df = load_data_from_excel(local_path="scholarships.xlsx")
+        if os.path.exists("scholarships.xlsx"):
+            df = load_data_from_excel(local_path="scholarships.xlsx")
+        else:
+            df = pd.read_csv("data/sample_scholarships.csv")
     else:
         df = pd.DataFrame()
 except Exception as e:
