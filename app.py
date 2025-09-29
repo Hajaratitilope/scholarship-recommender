@@ -9,6 +9,7 @@ from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import io
+import os
 
 st.set_page_config(page_title="Scholarship Recommender (Prototype)", layout="wide")
 
