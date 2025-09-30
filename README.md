@@ -22,7 +22,7 @@ This project aims to simplify the scholarship search process, reduce manual effo
 - Option to **download recommendations as CSV**.
 
 ## 🖼️ Demo Preview
-![Scholarship Recommender Demo](assets/demo.gif)
+![Scholarship Recommender Demo](https://github.com/user-attachments/assets/c77788d5-5025-4ebb-a158-c56acdcfd695)
 
 Try it live here:  
 [Scholarship Recommender Prototype](https://scholarship-recommender.streamlit.app/)
